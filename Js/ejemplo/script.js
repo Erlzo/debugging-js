@@ -8,6 +8,7 @@ function incrementar() {
 }
 
 function reiniciar() {
-     contador = 0; 
+     //const contador = 0; mal
+        contador = 0; //bien
     document.getElementById('contador').innerText = contador;
 }
